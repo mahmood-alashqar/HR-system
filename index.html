@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>201-Exam</title>
+    <link href="/Style/reset.css" rel="stylesheet">
+    <link href="/Style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+</head>
+
+<body>
+    <header>
+        <div id="title"><h1>HR System</h1></div>
+        
+    </header>
+
+
+    <main>
+        <section class="container">
+            <div id="left">Add Employees
+                <form id="form">
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email">
+                    <br><br>
+                    <label for="department">Department:</label>
+                    <br>
+                    <select id="department" name="department">
+                        <option value="callCenter">callCenter</option>
+                        <option value="iT">Information Technology</option>
+                        <option value="hR">Human Resource</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </form>
+
+
+
+            </div>
+            <div id="right">
+                <table id="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                    </tr>
+
+                </table>
+                <p id="total"> </p>
+
+                
+            </div>
+        </section>
+    </main>
+
+
+    <footer></footer>
+    <script src="/JS/app.js"></script>
+</body>
+
+</html>

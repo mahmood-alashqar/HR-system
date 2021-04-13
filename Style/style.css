@@ -1,0 +1,77 @@
+.container {
+    background-image: url("/Images/bk.jpg");
+
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+  flex-wrap: nowrap;
+}
+#left {
+    background-color: #0000008c;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 300px;
+    height: 300px;
+    margin-left: 86px;
+    margin-top: 60px;
+}
+#right {
+    background-color: #0000008c;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 700px;
+    height: 300px;
+    margin-left: 230px;
+    margin-top: 60px;
+    }
+#title 
+    {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        background-color:#00000091;
+        color: blanchedalmond;
+        height: 50px;
+    }
+    #title > h1
+    {
+        color: blanchedalmond;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        position: relative;
+        left: 620px;
+        top: 20px;
+        height: 56px;
+        font-family: 'Indie Flowe';
+    }
+    table {
+        border-collapse: collapse;
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+
+      #total
+      {
+        border: 1px solid black;
+      }
